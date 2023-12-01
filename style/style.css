@@ -3,10 +3,13 @@
 :root {
  --color-orange: #FF9614;
  --color-lgray: #F6F5F3;
+ --font-s: 0.8rem;
+ --font-m: 1rem;
  --font-ml: 1.2rem;
  --font-l: 1.4rem;
  --font-xl: 2rem;
  --font-2xl: 2.3rem;
+ --font-3xl: 2.6rem;
 }
 
 /*! FONT AWESOME */
@@ -119,6 +122,15 @@ section {
     display: none;
 }
 
+.share-social span {
+    color: black;
+    font-weight: bold;
+    display: none;
+    font-size: var(--font-m);
+    text-transform: uppercase;
+    padding-left: 5px;
+}
+
     /* RATING */
 
 .rating {
@@ -141,17 +153,16 @@ section {
 .recipe {
     justify-content: center;
     background-color: white;
-    flex-direction: column;
 }
 
 .recipe-video {
-    width: 100%;
+    flex-basis: 100%;
     height: 350px;
 }
 
 .recipe-ingredients {
     padding: 30px ;
-    width: 100%;
+    flex-basis: 100%;
     flex-wrap: wrap;
 }
 
@@ -221,9 +232,11 @@ th.txt-orange {
     padding: 15px 20px;
     background-color: white;
     border-radius: 30px;
+    text-align: center;
+    text-decoration: none;
 }
 
-/*! RECIPE PRESENTATION */
+/*! PUB-BANNER */
 
 .pub-banner {
     width: 100%;
