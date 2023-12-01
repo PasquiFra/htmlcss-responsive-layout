@@ -30,6 +30,7 @@
     color: #e62222;
 }
 
+
 /*! GENERAL RULES  */
 
 * {
@@ -89,6 +90,10 @@ section {
     justify-content: space-between;
 }
 
+.txt-orange {
+    color: var(--color-orange);
+}
+
 /*! SECTIONS */
 
 /* MAIN */
@@ -117,18 +122,19 @@ section {
     /* RATING */
 
 .rating {
-    font-size: var(--font-ml);   
+    font-size: var(--font-ml);
 }
 
 .rated {
-    display: inline-block;
+    
 }
 
 .rate {
     margin-left: 10px;
-    padding: 8px 14px;
-    border-radius: 20%;
-    
+    padding: 10px 15px;
+    border-radius: 40px;
+    min-width: 5rem;
+
     background-color: var(--color-orange);
     color: white;
     font-weight: bold;
@@ -148,12 +154,8 @@ section {
 }
 
 .recipe-ingredients {
-    padding: 25px;
+    padding: 30px ;
     width: 100%;
-}
-
-.recipe-ingredients {
-    flex-basis: 100%;
     flex-wrap: wrap;
 }
 
@@ -161,24 +163,53 @@ section {
 .requirements {
     flex-basis: 100%;
 }
+.recipe-info {
+    background-color: var(--color-lgray);
+    padding: 0 15px;
+}
 
 thead tr{
     display: flex;
+    align-items: center;
     justify-content: space-between;
     text-align: center;
-}
-
-.recipe-info {
-    background-color: var(--color-lgray);
-    padding: 15px;
-}
-
-thead {
     border-bottom: 1px solid rgb(85, 82, 82);
+}
+
+.kcal {
+    padding: 4px 7px;
+    background-color: #7b69a2;
+    border-radius: 8px;
+    color: white;
+    font-weight: normal;
+}
+
+tr {
+    display: flex;
+    padding: 20px 0;
+}
+
+th.txt-orange {
+    font-size: var(--font-ml);
+}
+
+.requirements i {
+    color: var(--color-orange);
+    padding-right: 8px;    
 }
 
 .requirements span {
     font-weight: bold;
+}
+
+.requirements {
+    margin-top: 25px;
+}
+
+.requirements li {
+    font-size: var(--font-ml);
+    font-weight: 300;
+    padding: 10px 0;
 }
 
 /*! SHARE-SOCIAL */
