@@ -6,7 +6,7 @@
  --font-ml: 1.2rem;
  --font-l: 1.4rem;
  --font-xl: 2rem;
- --font-2xl: 2.5rem;
+ --font-2xl: 2.3rem;
 }
 
 /*! FONT AWESOME */
@@ -69,7 +69,7 @@ ul {
 }
 
 section {
-    margin: 30px 0;
+    margin: 15px 0;
 }
 
 /*! UTILS  */
@@ -125,10 +125,6 @@ section {
     font-size: var(--font-ml);
 }
 
-.rated {
-    
-}
-
 .rate {
     margin-left: 10px;
     padding: 10px 15px;
@@ -150,7 +146,7 @@ section {
 
 .recipe-video {
     width: 100%;
-    height:340px;
+    height: 350px;
 }
 
 .recipe-ingredients {
@@ -210,19 +206,31 @@ th.txt-orange {
     font-size: var(--font-ml);
     font-weight: 300;
     padding: 10px 0;
+    flex-basis: 100%;
 }
 
 /*! SHARE-SOCIAL */
 
 .share-social {
     justify-content: space-around;
+    margin: 30px 0;
 }
 
 .share-social a {
     font-size: var(--font-ml);
     padding: 15px 20px;
     background-color: white;
-    border-radius: 50%;
+    border-radius: 30px;
+}
+
+/*! RECIPE PRESENTATION */
+
+.pub-banner {
+    width: 100%;
+}
+
+.pub-banner img{
+    width: 100%;
 }
 
 /*! RECIPE PRESENTATION */
@@ -252,6 +260,7 @@ th.txt-orange {
     line-height: var(--font-2xl);
     font-size: var(--font-l);
     font-weight: 300;
+    padding: 25px 0;
 }
 
 /* FOOTER */
