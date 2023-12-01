@@ -4,9 +4,30 @@
  --color-orange: #FF9614;
  --color-lgray: #F6F5F3;
  --font-ml: 1.2rem;
- --font-l: 1.5rem;
+ --font-l: 1.4rem;
  --font-xl: 2rem;
  --font-2xl: 2.5rem;
+}
+
+/*! FONT AWESOME */
+
+.fa-star {
+    color: var(--color-orange);
+}
+.fa-facebook {
+    color: #1a77f3;
+}
+.fa-twitter {
+    color: #009eff;
+}
+.fa-instagram {
+    color: #e33d78;
+}
+.fa-pinterest {
+    color: #e62d2c;
+}
+.fa-youtube {
+    color: #e62222;
 }
 
 /*! GENERAL RULES  */
@@ -46,25 +67,8 @@ ul {
     list-style-type: none;
 }
 
-/*! FONT AWESOME */
-
-.fa-star {
-    color: var(--color-orange);
-}
-.fa-facebook {
-    color: #1a77f3;
-}
-.fa-twitter {
-    color: #009eff;
-}
-.fa-instagram {
-    color: #e33d78;
-}
-.fa-pinterest {
-    color: #e62d2c;
-}
-.fa-youtube {
-    color: #e62222;
+section {
+    margin: 30px 0;
 }
 
 /*! UTILS  */
@@ -80,6 +84,7 @@ ul {
     flex-wrap: wrap;
     align-items: center;
 }
+
 .space-between {
     justify-content: space-between;
 }
@@ -132,7 +137,6 @@ ul {
 /*! RECIPE */
 
 .recipe {
-    margin: 20px 0;
     justify-content: center;
     background-color: white;
     flex-direction: column;
@@ -181,7 +185,6 @@ thead {
 
 .share-social {
     justify-content: space-around;
-    padding: 30px 0;
 }
 
 .share-social a {
@@ -196,14 +199,26 @@ thead {
 .recipe-presentation h2 {
     font-size: var(--font-2xl);
     font-weight: 400;
+    padding-bottom: 1rem;
+}
+
+.orange-rule {
+    width: 20%;
+    border: 2px solid var(--color-orange);
 }
 
 .recipe-main-photo {
     display: flex;
     justify-content: center;
-    padding: 20px 0;
+    padding: 25px 0;
 }
 
 .recipe-main-photo img {
-    width: 60%;
+    width: 70%;
+}
+
+.recipe-paragraph {
+    line-height: var(--font-2xl);
+    font-size: var(--font-l);
+    font-weight: 300;
 }
