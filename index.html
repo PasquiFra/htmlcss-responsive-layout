@@ -14,7 +14,8 @@
         <!-- Montserrat -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;500;600;700;800&display=swap" rel="stylesheet">
+
         <!-- Nerko One -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -33,6 +34,7 @@
     </head>
 
 <body>
+
     <!--! HEADER titolo -->
     <header>
         <h1>Giallo Booleano</h1>
@@ -40,73 +42,77 @@
 
     <!--! MAIN -->
     <main>
+        <div class="container">
+            <!-- HEADER RICETTA -->
+            <header>
+                <address class="cat-desserts">dolci e desserts</address>
+                <div class="flex space-between">
+                    <h2 class="recipe-title">Tiramisù <span class="add-title">(Dolce Tradizionale)</span></h2>
+                    <div class="rating">
+                        <span class="rated"><i class="fa-solid fa-star"></i><strong>4.6</strong>/5</span>
+                        <a class="rate">rate</a>
+                    </div>
+                </div>
+            </header>
 
-        <!-- Header ricetta -->
-        <header>
+            <!-- Sezione DISPLAY RICETTA -->
+            <section class="recipe flex">
 
-            <address class="cat-dolci">dolci e desserts</address>
-            <h2 class="recipe-title">Tiramisù <span class="add-title">(Dolce Tradizionale)</span></h2>
-            <div class="rating">
-                <span class="rated">stellina4.6</span>
-                /5
-                <a class="rate">rate</a>
-            </div>
-
-        </header>
-
-        <!-- Sezione display ricetta -->
-        <section class="recipe">
-
-            <div class="recipe-video">
-                <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/JVT900H6s0g?si=dPleo77JsIoCDjnA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
-            </div>
-            <div class="recipe-ingredients">
-                <div class="recipe-info">
-                    <table>
+                <div class="recipe-video flex">
+                    <iframe width="100%" height="340px" src="https://www.youtube.com/embed/JVT900H6s0g?si=dPleo77JsIoCDjnA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="recipe-ingredients flex">
+                    <table class="recipe-info">
                         <thead>
                             <tr>
-                                <!-- <th>544 Kcal</th> -->
-                                <!-- <th>+ info</th> -->
+                                <th>544 Kcal</th>
+                                <th>+ info</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <!-- <td>-carota- Vegetariano</td> -->
+                                <td><i class="fa-solid fa-carrot"></i> VEGETARIANO</td>
                             </tr>
                         </tbody>
                     </table>
+                
+                    <ul class="requirements">
+                        <li class="req-difficulty">Difficoltà: <span>Facile</span></li>
+                        <li class="req-time">Tempo: <span>40 min</span></li>
+                        <li class="req-portions">Porzione per: <span>8 persone</span></li>
+                        <li class="req-cost">Costo: <span>contenuto</span></li>
+                        <li class="req-notes"><span>Note:</span> +2 ore di riposo in frigo</li>
+                    </ul>
                 </div>
-                <ul class="requirements">
-                    <li class="req-difficulty"></li>
-                    <li class="req-time"></li>
-                    <li class="req-portions"></li>
-                    <li class="req-cost"></li>
-                    <li class="req-notes"></li>
-                </ul>
-            </div>
 
-        </section>
+            </section>
 
-        <section class="share-social">
-            <a class="facebook" href="#"></a>
-            <a class="twitter" href="#"></a>
-            <a class="instagram" href="#"></a>
-            <a class="pinterest" href="#"></a>
-            <a class="youtube" href="#"></a>
-        </section>
+            <!-- Sezione SOCIAL -->
+            <section class="share-social flex">
+                <a class="facebook" href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a class="twitter" href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a class="instagram" href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a class="pinterest" href="#"><i class="fa-brands fa-pinterest"></i></a>
+                <a class="youtube" href="#"><i class="fa-brands fa-youtube"></i></a>
+            </section>
 
-        <section class="pub-banner">
-            <!-- <img src="./img/banner.png" alt="banner"> -->
-        </section>
+            <!-- Sezione PUBBLICITA -->
+            <section class="pub-banner">
+                <img src="./img/banner.png" alt="banner">
+            </section>
 
-        <section class="recipe-presentation">
-            <h2>Presentation</h2>
-            <!-- <img class="recipe-main-photo" src="./img/tiramisu.jpg" alt="foto-tiramisu"> -->
-            <p class="recipe-presentation-paragraph">
-                <!--Back in the day, grandmothers used to prepare a breakfast that we might call humble today, but was considered very rich at the time! Today the recipe is still unchanged, just break a very fresh egg into a glass, beat it with sugar, and add coffee or hot milk, for children, or <strong>Marsala wine</strong> or aniseed for adults. This marvelous cream gave rise to mascarpone cream used to make <strong>Tiramisù</strong> (mascarpone cheese and ladyfingers dessert). This id the <strong>best italian dessert</strong>, the most popular and beloved of them all, and it has also birthed many of other versions, even an egg-free Tiramisù! There is also a strawberry and Nutella tiramisù! Although the origins of this famous dessert are unclear, because it is disputed between the regions of Veneto, Friuli-Venezia Giulia, Piedmont, and Tuscany, it remains a cornerstone od Italian cousine and it's widely prepared from North to South. Unfortunately, we weren't able to find out who invented it, but we can certainly teach you how to prepare your best tiramisù ever. So here's the recipe: try it and let us know what you think!
-                -->
-            </p>
-        </section>
+            <!-- Sezione PRESENTAZIONE RICETTA -->
+            <section class="recipe-presentation">
+                <h2>Presentation</h2>
+                
+                <figure class="recipe-main-photo">
+                    <img src="./img/tiramisu.jpg" alt="foto-tiramisu">
+                </figure>
+                <p class="recipe-presentation-paragraph">
+                    Back in the day, grandmothers used to prepare a breakfast that we might call humble today, but was considered very rich at the time! Today the recipe is still unchanged, just break a very fresh egg into a glass, beat it with sugar, and add coffee or hot milk, for children, or <strong>Marsala wine</strong> or aniseed for adults. This marvelous cream gave rise to mascarpone cream used to make <strong>Tiramisù</strong> (mascarpone cheese and ladyfingers dessert). This id the <strong>best italian dessert</strong>, the most popular and beloved of them all, and it has also birthed many of other versions, even an egg-free Tiramisù! There is also a strawberry and Nutella tiramisù! Although the origins of this famous dessert are unclear, because it is disputed between the regions of Veneto, Friuli-Venezia Giulia, Piedmont, and Tuscany, it remains a cornerstone od Italian cousine and it's widely prepared from North to South. Unfortunately, we weren't able to find out who invented it, but we can certainly teach you how to prepare your best tiramisù ever. So here's the recipe: try it and let us know what you think!
+                </p>
+            </section>
+        </div>
     </main>
 
     <footer>
