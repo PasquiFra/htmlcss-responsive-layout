@@ -222,3 +222,33 @@ thead {
     font-size: var(--font-l);
     font-weight: 300;
 }
+
+/* FOOTER */
+
+footer {
+    color: white;
+    background-color: #7c69a4;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 25px;
+    row-gap: 15px;
+}
+
+.footer-left,
+.footer-right {
+   margin: 0;
+}
+
+
+.company-head {
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.general-policies {
+    display: inline-block;
+    color: white;
+    padding: 15px;
+}
