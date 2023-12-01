@@ -1,0 +1,27 @@
+/*! CSS PROPERTIES */
+
+:root {
+
+}
+
+/*! GENERAL RULES  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
+}
+
+h1 {
+    font-family: 'Nerko One', cursive;
+}
+
+h1, 
+address.cat-dolci, 
+.rate,
+.recipe-presentation h2 {
+        text-transform: uppercase;
+}
+
+/*! UTILS  */
