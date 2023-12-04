@@ -43,7 +43,7 @@
     }
 
     .share-social a {
-        padding: 15px 60px;
+        flex-basis: 15%;
     }
     
     .recipe-main-photo img {
@@ -102,10 +102,10 @@
 
     .share-social a {
         font-size: var(--font-s);
-        padding: 10px 50px;
+        padding: 10px 0px;
+        flex-basis: 17%;
         margin-top: 10px;
         text-align: center;
-        text-decoration: none;
     }
 
     footer {
